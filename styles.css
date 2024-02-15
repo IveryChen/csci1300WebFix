@@ -20,7 +20,7 @@ h1{
   height: 100%;
 }
 
-@media screen and (max-width:415px) {
+@media screen and (max-width:515px) {
   #logoGalleryContainer {
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ h1{
   }
 }
 
-@media screen and (min-width:416px) {
+@media screen and (min-width:516px) {
   #logoGalleryContainer {
     display: flex;
     flex-direction: row;
@@ -42,7 +42,7 @@ h1{
 
 #logoBar{
   width: 70vw;
-  height: 20vh;
+  height: auto;
 }
 
 #siteLogo{
@@ -51,7 +51,6 @@ h1{
 
 #staffGallery{
   width: 70vw;
-  height:40vh;
   padding: 40px;
   display: inherit;
   flex-wrap: wrap;
